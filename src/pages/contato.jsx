@@ -6,7 +6,7 @@ export default () => {
     <div className={styles.contact}>
       <form action="https://formsubmit.co/bogoslucas1@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="Novo contato para trabalho"/>
-        <input type="hidden" name="_next" value="http://localhost:3000/agradecimento"></input>
+        <input type="hidden" name="_next" value="/agradecimento"></input>
         <input type="hidden" name="_captcha" value="false"></input>
         <div><input 
           type="text" 
