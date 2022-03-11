@@ -1,0 +1,50 @@
+.menubar {
+  display: flex;
+  height: 66px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  background-color: var(--black-color);
+  color: #bbb;
+}
+
+.menubar::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #efefef;
+  position: absolute;
+  left: 0;
+  top: var(--height-menubar);
+}
+
+.menubar span {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.menubar .logo {
+  color: #bbb;
+  font-size: 20px;
+}
+
+.menubar .logo:hover {
+  color: #fff;
+}
+
+.menubar ul {
+  display: flex;
+  list-style: none;
+}
+
+.menubar ul > li {
+  padding: .5em;
+}
+
+.menubar ul li a {
+  transition: .5s;
+}
+
+.menubar ul li a:hover {
+  color: white;
+}

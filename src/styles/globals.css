@@ -1,0 +1,40 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+
+:root {
+  --black-color: #1d1d1f;
+  --dark-gray-color: #808080;
+  --light-gray-color: #bbb;
+  
+  --height-menubar: 66px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--dark-gray-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input,
+textarea {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: .5em;
+  line-height: 1.5em;
+}

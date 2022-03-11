@@ -1,0 +1,26 @@
+.contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.contact {
+    width: 70%;
+}
+
+.contact button {
+    width: 100%;
+    background-color: var(--black-color);
+    color: var(--light-gray-color);
+    border-radius: 5px;
+    padding: .8em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+}

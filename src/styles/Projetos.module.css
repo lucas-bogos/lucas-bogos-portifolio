@@ -1,0 +1,71 @@
+.card_container {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+}
+
+.card_container .card_repo {
+    background-color: #bbb;
+    border-radius: 15px;
+    margin: 1em;
+    max-width: 300px;
+    min-height: 320px;
+    border: 2px solid #1d1d1f;
+    padding: 1em;
+}
+
+.card_container .card_repo .title {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card_container .card_repo .stack {
+    width: max-content;
+    padding: 0 5px;
+    background-color: red;
+    border-radius: 5px;
+    line-height: 1.5em;
+    color: white;
+    margin-bottom: 3em;
+}
+
+.card_container .card_repo .JavaScript {
+    background-color: #d3a51d;
+
+}
+
+.card_container .card_repo .TypeScript {
+    background-color: rgb(30, 30, 160);
+}
+
+.card_container .card_repo .cta_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card_container .card_repo .cta {
+    font-weight: bold;
+    background-color: var(--black-color);
+    color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid var(--black-color);
+    transition: .5s;
+    margin-bottom: 1em;
+}
+
+.card_container .card_repo .cta_container .cta:hover {
+    background-color: #bbb;
+    color: var(--black-color);
+}
+
