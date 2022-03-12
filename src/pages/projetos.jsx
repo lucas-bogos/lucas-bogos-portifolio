@@ -1,6 +1,6 @@
 import styles from "../styles/Projetos.module.css";
 
-export const getStaticProps = async () => {
+export async function getStaticProps() {
   const response = await fetch("https://api.github.com/users/lucas-bogos/repos");
   const data = await response.json();
 
@@ -10,7 +10,7 @@ export const getStaticProps = async () => {
      }
   }
 }
-const projetos = ({ repositories }) => {
+export default function projetos({ repositories }) {
   const getYearUpdated = (date) => {
     const yearUpdated = parseInt(date.slice(0, 4));
     return yearUpdated;
@@ -43,6 +43,4 @@ const projetos = ({ repositories }) => {
     }</div>
   ))}</div>
   </>
-};
-
-export default projetos;
+}

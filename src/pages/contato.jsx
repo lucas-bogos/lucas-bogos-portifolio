@@ -1,6 +1,6 @@
 import styles from "../styles/Contato.module.css";
 
-const contato = () => {
+export default function contato() {
   return <div className={styles.contact_container}>
     <h1>Solicite um serviço</h1>
     <div className={styles.contact}>
@@ -36,6 +36,4 @@ const contato = () => {
       </form>
     </div>
   </div>
-};
-
-export default contato;
+}

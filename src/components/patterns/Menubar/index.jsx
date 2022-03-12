@@ -1,7 +1,7 @@
 import styles from "./Menubar.module.css";
 import Link from "next/link";
 
-const Menubar = () => {
+export default function Menubar() {
   return <header className={styles.menubar}>
     <div>
       <Link href="/">
@@ -36,5 +36,3 @@ const Menubar = () => {
     </nav>
   </header>
 }
-
-export default Menubar;
