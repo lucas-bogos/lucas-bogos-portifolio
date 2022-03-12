@@ -25,7 +25,7 @@ export default function projetos({ repositories }) {
     <h1 className={styles.title}>Projetos recentes</h1>
     <div className={styles.card_container}>
     {repositories.map((repo, index) => (
-    <div>{repo.name !== "lucas-pixel" && getYearUpdated(repo.created_at) >= 2021 &&
+    <div>{repo.name !== "lucas-bogos-portifolio" && getYearUpdated(repo.created_at) >= 2021 &&
       <div className={styles.card_repo} key={index}>
         <h3 className={styles.title}>{repo.name.replaceAll("-", " ")}</h3>
         <p>Descrição: {repo.description}</p>
