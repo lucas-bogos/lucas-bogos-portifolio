@@ -6,7 +6,7 @@ export default function contato() {
     <div className={styles.contact}>
       <form action="https://formsubmit.co/bogoslucas1@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="Novo contato para trabalho"/>
-        <input type="hidden" name="_next" value="/agradecimento"></input>
+        <input type="hidden" name="_next" value="https://lucas-bogos.vercel.app/agradecimento"></input>
         <input type="hidden" name="_captcha" value="false"></input>
         <div><input 
           type="text" 
