@@ -2,7 +2,7 @@ import Menubar from "./patterns/Menubar"
 import Footer from "./patterns/Footer";
 import Head from "next/head";
 
-export default ({ children }) => {
+const Layout = ({ children }) => {
   return <div>
     <Head>
       <title>Lucas Bogos: Programador Web Frontend e Backend</title>
@@ -18,3 +18,5 @@ export default ({ children }) => {
     `}</style>
   </div>
 }
+
+export default Layout;

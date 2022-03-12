@@ -15,7 +15,7 @@ import {
   AiFillHeart
 } from "react-icons/ai";
 
-export default () => {
+const index = () => {
   const born = 2001;
   const yearCurrent = new Date().getFullYear();
   const monthCurrent = new Date().getMonth();
@@ -50,3 +50,5 @@ export default () => {
     </div>
   </>
 };
+
+export default index;

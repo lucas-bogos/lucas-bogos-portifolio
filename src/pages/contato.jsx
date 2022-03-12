@@ -1,6 +1,6 @@
 import styles from "../styles/Contato.module.css";
 
-export default () => {
+const contato = () => {
   return <div className={styles.contact_container}>
     <h1>Solicite um serviço</h1>
     <div className={styles.contact}>
@@ -11,7 +11,7 @@ export default () => {
         <div><input 
           type="text" 
           name="name"
-          minlength="8" 
+          minLength="8" 
           placeholder="Nome completo" 
           required />
         </div>
@@ -37,3 +37,5 @@ export default () => {
     </div>
   </div>
 };
+
+export default contato;
