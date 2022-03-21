@@ -27,7 +27,7 @@ export default function projetos({ repositories }) {
     {repositories.map((repo, index) => (
     <div>{repo.name !== "lucas-bogos-portifolio" && getYearUpdated(repo.created_at) >= 2021 &&
       <div className={styles.card_repo} key={index}>
-        <h3 className={styles.title}>{repo.name.toString().replaceAll("-", " ")}</h3>
+        <h3 className={styles.title}>{repo.name.replace(/-/g, " ")}</h3>
         <p>Descrição: {repo.description}</p>
         <div className={`${styles.stack} ${styles[repo.language]}`}>
           <p>{repo.language}</p>
