@@ -5,7 +5,9 @@ import Head from "next/head";
 export default function Layout({ children }) {
   return <div>
     <Head>
-      <title>Lucas Bogos: Programador Web Frontend e Backend</title>
+      <title>Lucas Bogos: Programador Web Frontend e Backend - Build The Future With Conscience</title>
+      <meta name="description" content="Contrate um serviço de qualidade de tecnologia, onde faz uso de tecnologias modernas e boas práticas" />
+      <meta name="robots" content="index, follow" />
       <link rel="icon" type="image/x-icon" href="/images/favicon.png"/>
     </Head>
     <Menubar />
