@@ -36,12 +36,12 @@ export default function index() {
         </div>
         <ul type="none">
           <li><FaUserAlt/> Lucas Bogos</li>
-          <li><MdWork/> Full Stack Developer</li>
+          <li><MdWork/> Engenheiro de Software</li>
           <li><FaMapMarkerAlt/> Franco da Rocha - SP</li>
           <li><AiFillHeart /> {age} anos de idade</li>
         </ul>
       </div>
-      <p className={styles.presentation}>Tenho uma paixão enorme por tecnologia, em especial, programação. Atualmente estou fazendo <strong>Freelance como programador</strong>, faço uso de boas práticas de desenvolvimento e arquitetura, em que seja legível para qualquer desenvolvedor que venha dar manutenção na <strong>aplicação ou site</strong>.</p>
+      <p className={styles.presentation}>Tenho uma paixão enorme por tecnologia, em especial, programação. Atualmente sou <strong>criador do <a href="https://itinnovation.com.br/" target="_blank">IT Innovation</a></strong>, faço uso de boas práticas de desenvolvimento e arquitetura, em que seja legível para qualquer desenvolvedor que venha dar manutenção na <strong>aplicação ou site</strong>.</p>
       <Link href="/contato">
         <span className={styles.call_to_action}>
           <a>SOLICITAR ORÇAMENTO</a>

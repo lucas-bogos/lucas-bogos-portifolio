@@ -23,8 +23,8 @@ export default function Menubar() {
             </Link>
           </li>
           <li>
-            <Link href="/blog">
-              <a>Blog</a>
+            <Link href="https://lucasbogos.com/">
+              <a target="_blank">Blog</a>
             </Link>
           </li>
           <li>
