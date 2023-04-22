@@ -35,9 +35,9 @@ export default function index() {
           </span>
         </div>
         <ul type="none">
-          <li><FaUserAlt/> Lucas Bogos</li>
-          <li><MdWork/> Engenheiro de Software</li>
-          <li><FaMapMarkerAlt/> Franco da Rocha - SP</li>
+          <li><FaUserAlt /> Lucas Bogos</li>
+          <li><MdWork /> Engenheiro de Software</li>
+          <li><FaMapMarkerAlt /> Franco da Rocha - SP</li>
           <li><AiFillHeart /> {age} anos de idade</li>
         </ul>
       </div>

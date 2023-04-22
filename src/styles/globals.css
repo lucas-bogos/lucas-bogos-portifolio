@@ -4,7 +4,7 @@
   --black-color: #1d1d1f;
   --dark-gray-color: #808080;
   --light-gray-color: #bbb;
-  
+
   --height-menubar: 66px;
 }
 
@@ -28,13 +28,13 @@ a {
 
 input::placeholder,
 textarea::placeholder {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 input,
 textarea {
   border: none;
   border-radius: 5px;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   line-height: 1.5em;
 }

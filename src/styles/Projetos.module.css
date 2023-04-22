@@ -1,71 +1,74 @@
 .card_container {
-    width: 90vw;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .card_container .card_repo {
-    background-color: #bbb;
-    border-radius: 15px;
-    margin: 1em;
-    max-width: 300px;
-    min-height: 320px;
-    border: 2px solid #1d1d1f;
-    padding: 1em;
+  background-color: #bbb;
+  border-radius: 15px;
+  margin: 1em;
+  max-width: 300px;
+  min-height: 320px;
+  border: 2px solid #1d1d1f;
+  padding: 1em;
+  box-shadow: 2.1px 1.4px 2.7px rgba(0, 0, 0, 0.022),
+    5.2px 3.5px 6.9px rgba(0, 0, 0, 0.031),
+    10.6px 7.1px 14.2px rgba(0, 0, 0, 0.039),
+    21.9px 14.6px 29.2px rgba(0, 0, 0, 0.048),
+    60px 40px 80px rgba(0, 0, 0, 0.07);
 }
 
 .card_container .card_repo .title {
-    text-align: center;
-    text-transform: capitalize;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .card_container .card_repo .stack {
-    width: max-content;
-    padding: 0 5px;
-    background-color: red;
-    border-radius: 5px;
-    line-height: 1.5em;
-    color: white;
-    margin-bottom: 3em;
+  width: max-content;
+  padding: 0 5px;
+  background-color: red;
+  border-radius: 5px;
+  line-height: 1.5em;
+  color: white;
+  margin-bottom: 3em;
 }
 
 .card_container .card_repo .JavaScript {
-    background-color: #d3a51d;
-
+  background-color: #d3a51d;
 }
 
 .card_container .card_repo .TypeScript {
-    background-color: rgb(30, 30, 160);
+  background-color: rgb(30, 30, 160);
 }
 
 .card_container .card_repo .cta_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .card_container .card_repo .cta {
-    font-weight: bold;
-    background-color: var(--black-color);
-    color: #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    border: 3px solid var(--black-color);
-    transition: .5s;
-    margin-bottom: 1em;
+  font-weight: bold;
+  background-color: var(--black-color);
+  color: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid var(--black-color);
+  transition: 0.5s;
+  margin-bottom: 1em;
 }
 
 .card_container .card_repo .cta_container .cta:hover {
-    background-color: #bbb;
-    color: var(--black-color);
+  background-color: #bbb;
+  color: var(--black-color);
 }
-

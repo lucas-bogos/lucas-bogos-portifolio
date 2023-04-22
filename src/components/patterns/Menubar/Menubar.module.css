@@ -38,11 +38,11 @@
 }
 
 .menubar ul > li {
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .menubar ul li a {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .menubar ul li a:hover {
